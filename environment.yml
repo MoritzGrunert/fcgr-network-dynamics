@@ -1,0 +1,18 @@
+name: fcgr-analysis
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.13
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  - pytorch
+  - scikit-learn
+  - seaborn
+
+  - pip:
+      - -e ./external/PyKaos
